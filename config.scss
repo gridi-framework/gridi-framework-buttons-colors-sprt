@@ -1,10 +1,14 @@
 $buttons-colors-support-parser: (
+    outline-color: null,
     border-color: color,
-    hover-border-color: 'hover-color',
-    background: color,
-    hover-background: 'hover-color',
+    background-color: color,
     color: 'background-inner-color',
-    hover-color: 'hover-background-inner-color'
+    hover-border-color: 'hover-color',
+    hover-background-color: 'hover-color',
+    hover-color: 'hover-background-inner-color',
+    focus-border-color: 'hover-color',
+    focus-background-color: 'hover-color',
+    focus-color: 'hover-background-inner-color'
 ) !default;
 
 $buttons-colors-support-extra-colors-palette: () !default;
